@@ -1,0 +1,230 @@
+$prefix: m__;
+
+// padding
+.#{$prefix}p10 {
+    padding: 10px !important;
+}
+.#{$prefix}pt10 {
+    padding-top: 10px !important;
+}
+.#{$prefix}pr10 {
+    padding-right: 10px !important;
+}
+.#{$prefix}pb10 {
+    padding-bottom: 10px !important;
+}
+.#{$prefix}pl10 {
+    padding-left: 10px !important;
+}
+.#{$prefix}ptb10 {
+    padding: 10px 0 !important;
+}
+.#{$prefix}plr10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.#{$prefix}p20 {
+    padding: 20px;
+}
+.#{$prefix}pt20 {
+    padding-top: 20px !important;
+}
+.#{$prefix}pr20 {
+    padding-right: 20px !important;
+}
+.#{$prefix}pb20 {
+    padding-bottom: 20px !important;
+}
+.#{$prefix}pl20 {
+    padding-left: 20px !important;
+}
+.#{$prefix}ptb20 {
+    padding: 20px 0 !important;
+}
+.#{$prefix}plr20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+// margin
+.#{$prefix}m10 {
+    margin: 10px !important;
+}
+.#{$prefix}mt10 {
+    margin-top: 10px !important;
+}
+.#{$prefix}mr10 {
+    margin-right: 10px !important;
+}
+.#{$prefix}mb10 {
+    margin-bottom: 10px !important;
+}
+.#{$prefix}ml10 {
+    margin-left: 10px !important;
+}
+.#{$prefix}mtb10 {
+    margin: 10px 0 !important;
+}
+.#{$prefix}mlr10 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.#{$prefix}m20 {
+    margin: 20px !important;
+}
+.#{$prefix}mt20 {
+    margin-top: 20px !important;
+}
+.#{$prefix}mr20 {
+    margin-right: 20px !important;
+}
+.#{$prefix}mb20 {
+    margin-bottom: 20px !important;
+}
+.#{$prefix}ml20 {
+    margin-left: 20px !important;
+}
+.#{$prefix}mtb20 {
+    margin: 20px 0 !important;
+}
+.#{$prefix}mlr20 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+// 字体大小
+.#{$prefix}fz10 {
+    font-size: 12px!important;
+}
+.#{$prefix}fz12 {
+    font-size: 12px!important;
+}
+.#{$prefix}fz13 {
+    font-size: 13px!important;
+}
+.#{$prefix}fz14 {
+    font-size: 14px!important;
+}
+.#{$prefix}fz15 {
+    font-size: 15px!important;
+}
+.#{$prefix}fz16 {
+    font-size: 16px!important;
+}
+.#{$prefix}fz18 {
+    font-size: 18px!important;
+}
+
+// 结构
+.#{$prefix}clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.#{$prefix}clearfix {
+    zoom: 1;
+}
+
+.#{$prefix}fl {
+    float: left;
+    display: inline;
+}
+
+.#{$prefix}fr {
+    float: right;
+    display: inline;
+}
+
+.#{$prefix}ell {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.#{$prefix}trans{
+    -webkit-transition:all 0.3s;
+            transition:all 0.3s;
+}
+
+//水平分散垂直居中对齐
+.#{$prefix}disCenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//水平垂直居中对齐
+.#{$prefix}center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//垂直居中对齐
+.#{$prefix}vCenter{
+    display: flex;
+    align-items: center;
+}
+
+//水平居中对齐
+.#{$prefix}hCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.#{$prefix}posr{
+	position: relative;
+}
+
+.#{$prefix}posa{
+    position: absolute;
+}
+
+.#{$prefix}dib{
+	display: inline-block;
+}
+
+.#{$prefix}oh{
+	overflow: hidden;
+}
+
+.#{$prefix}hide {
+    display: none;
+}
+
+.#{$prefix}mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    z-index: 100;
+}
+
+.#{$prefix}sticky{
+    position: sticky;
+    top: 0;
+}
+
+.#{$prefix}hdFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.#{$prefix}ftFixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}

@@ -1,0 +1,36 @@
+/*
+* @Author: yankang
+* @Date:   2017-06-27 16:08:29
+* @Last Modified by:   yankang
+* @Last Modified time: 2017-06-29 18:05:56
+*/
+
+.index__img{
+	display: block;
+}
+
+.icon{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	vertical-align: middle;
+	background-repeat: no-repeat !important;
+}
+
+.icon1{
+	background-image:url(../img/1.png);
+	// background-size: 50%;
+}
+
+.icon2{
+	background-image:url(../img/2.png);
+}
+
+.icon3{
+	background-image:url(../img/3.png);
+}
+
+.mb10{
+	margin-bottom: 10px;
+}

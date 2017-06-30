@@ -1,0 +1,50 @@
+/* 背景 */
+// 背景颜色
+.#{$prefix}bg {
+	background: $bgColor !important;
+}
+
+// 白色背景
+.#{$prefix}bgff {
+	background: #fff !important;
+}
+
+
+/* 分隔线 */
+// 上下分隔线
+.#{$prefix}btb1 {
+	border-top: 1px solid $border !important;
+	border-bottom: 1px solid $border !important;
+}
+
+// 上分隔线
+.#{$prefix}bt1 {
+	border-top: 1px solid $border !important;
+}
+
+// 下分隔线
+.#{$prefix}bb1 {
+	border-bottom: 1px solid $border !important;
+}
+
+
+/* 字体颜色 */
+//红色
+.#{$prefix}red {
+	color: $red !important;
+}
+
+// 黄色
+.#{$prefix}yellow {
+	color: $yellow !important;
+}
+
+// 蓝色
+.#{$prefix}blue {
+	color: $blue !important;
+}
+
+//灰色
+.#{$prefix}grey {
+	color: $grey !important;
+}

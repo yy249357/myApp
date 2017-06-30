@@ -1,0 +1,26 @@
+.#{$prefix}btn {
+	outline: none;
+	border: none;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	background: #b79364;
+	border-radius: .16rem;
+	text-align: center;
+	height: 1.33333rem;
+	line-height: 1.33333rem;
+	-webkit-user-select: none;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	&:active{
+		background: $btnActive;
+	}
+	.disabled{
+		-webkit-transition-duration: 0s;
+		transition-duration: 0s;
+		background: $btnDisabled !important;
+		&:active, &:hover{
+			background: $btnDisabled !important;
+		}
+	}
+}
