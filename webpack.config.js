@@ -3,7 +3,7 @@ var path = require('path');
 var webpack = require('webpack');
 var fs = require('fs');
 var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-
+var environment = process.env.NODE_ENV || 'development';
 var srcDir = path.resolve(process.cwd(), 'src');
 console.log(srcDir)
 
@@ -44,7 +44,7 @@ module.exports = {
         loaders: [
             { test: /\.js$/, loader: "babel-loader", exclude: /node_modules/,
                 query: {
-                    presets: ['es2015']
+                    presets: ['es2015', 'react']
                 }
             }
         ]

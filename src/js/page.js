@@ -2,7 +2,7 @@
 * @Author: yankang
 * @Date:   2017-06-30 11:23:01
 * @Last Modified by:   yankang
-* @Last Modified time: 2017-06-30 11:27:16
+* @Last Modified time: 2017-06-30 17:42:15
 */
 
 'use strict';
@@ -28,3 +28,17 @@ class Cat extends Animal {
 
 let cat = new Cat()
 cat.says('hello') //cat says hello
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+class account extends React.Component{
+    render(){
+        return (
+            <div>
+                这是账户页面
+            </div>
+        )
+    }
+}
+ReactDOM.reader(<App />, doucument.getElementById('app'))
